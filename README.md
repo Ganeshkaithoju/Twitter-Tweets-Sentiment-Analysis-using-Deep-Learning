@@ -43,13 +43,6 @@ Sentiment Prediction
 
 The project uses a SimpleRNN model with an Embedding layer, SimpleRNN, Dropout, and a Dense output layer with Softmax activation.
 
-```python
-Embedding(output_dim=128)
-SimpleRNN(64)
-Dropout(0.5)
-Dense(4, activation='softmax')
-```
-
 The four output classes are:
 
 ```text
